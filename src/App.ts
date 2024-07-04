@@ -12,7 +12,7 @@ class App {
     }
 
 
-    private startServer():void {
+    public startServer():void {
         this.app.listen(this.port, () => {
             console.log(`Server running on ${this.port}`)
         })
